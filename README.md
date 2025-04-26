@@ -44,27 +44,3 @@ You can download the trained model here:
 
 ---
 
-## 🚀 How to Use
-
-```python
-import tensorflow as tf
-
-# Define Mish activation
-from tensorflow.keras.layers import Activation
-from tensorflow.keras.utils import get_custom_objects
-
-class Mish(Activation):
-    def __init__(self, activation, **kwargs):
-        super(Mish, self).__init__(activation, **kwargs)
-        self.__name__ = 'mish'
-
-def mish(x):
-    return x * tf.math.tanh(tf.math.softplus(x))
-
-get_custom_objects().update({'mish': Mish(mish)})
-
-# Load the model
-model = tf.keras.models.load_model('path/to/aircraft_model_finetuned.h5', custom_objects={"mish": mish})
-
-# Predict
-prediction = model.predict(preprocessed_image)
