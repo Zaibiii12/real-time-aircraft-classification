@@ -44,3 +44,16 @@ You can download the trained model here:
 
 ---
 
+## 🚀 Real-Time Use Cases
+
+- **Visitors Gallery for Plane Spotting:** Enhance visitor experiences at airports by providing real-time aircraft identification and tracking for plane spotting enthusiasts in dedicated viewing areas.
+- **Landing and Taxiing Support:** Detect aircraft on the ground, assisting pilots and air traffic controllers with real-time positioning of aircraft during landing and taxiing operations.
+- **Training and Simulation:** Use the detection model for training ground crew, pilots, and air traffic controllers by simulating aircraft on the ground in a controlled environment.
+
+
+---
+
+## ✨ Author
+
+- **LinkedIn:** [Zohaib's LinkedIn](https://www.linkedin.com/in/zohaib-khalid-75a44b1a2/)
+- **GitHub:** [Zohaib's GitHub](https://github.com/zaibiii12)
