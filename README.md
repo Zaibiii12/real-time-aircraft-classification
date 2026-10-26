@@ -1,10 +1,10 @@
-# 🛩️ Real-Time Aircraft Detection using FGVC Data (Deep Learning)
+#  Real-Time Aircraft Detection using FGVC Data (Deep Learning)
 
 This project presents a fine-tuned **DenseNet201** model for **real-time aircraft detection**, trained on the **FGVC Aircraft dataset** using deep learning techniques.
 
 ---
 
-## 📚 Dataset
+##  Dataset
 - **Name:** FGVC Aircraft
 - **Images:** 10,000+
 - **Source:** [FGVC Aircraft Dataset on Kaggle](https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder)
@@ -13,7 +13,7 @@ This project presents a fine-tuned **DenseNet201** model for **real-time aircraf
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 - **Base Model:** DenseNet201 (Pretrained on ImageNet)
 - **Custom Layers:**
   - GlobalAveragePooling2D
@@ -28,7 +28,7 @@ This project presents a fine-tuned **DenseNet201** model for **real-time aircraf
 
 ---
 
-## 📈 Performance
+##  Performance
 - Achieved **high validation accuracy**.
 - Used EarlyStopping, ReduceLROnPlateau, and ModelCheckpoint for optimal performance during training.
 
@@ -44,7 +44,7 @@ You can download the trained model here:
 
 ---
 
-## 🚀 Real-Time Use Cases
+##  Real-Time Use Cases
 
 - **Visitors Gallery for Plane Spotting:** Enhance visitor experiences at airports by providing real-time aircraft identification and tracking for plane spotting enthusiasts in dedicated viewing areas.
 - **Landing and Taxiing Support:** Detect aircraft on the ground, assisting pilots and air traffic controllers with real-time positioning of aircraft during landing and taxiing operations.
@@ -53,7 +53,7 @@ You can download the trained model here:
 
 ---
 
-## ✨ Author
+##  Author
 
 - **LinkedIn:** [Zohaib's LinkedIn](https://www.linkedin.com/in/zohaib-khalid-75a44b1a2/)
 - **GitHub:** [Zohaib's GitHub](https://github.com/zaibiii12)
